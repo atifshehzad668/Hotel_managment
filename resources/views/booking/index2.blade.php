@@ -70,6 +70,8 @@
                                     @foreach ($guests as $guest)
                                         <tr>
 
+                                            this is testing for branch
+
                                             <td><strong>{{ $guest->first_name }}
                                                     {{ $guest->last_name }}</strong></td>
                                             {{-- @foreach ($booking->rooms as $room) --}}
